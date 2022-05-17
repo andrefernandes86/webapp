@@ -1,3 +1,3 @@
 FROM vishnunair/pentest
-CP start.sh ./start.sh
+COPY start.sh ./start.sh
 ENTRYPOINT ["sh", "./start.sh"]
